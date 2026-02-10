@@ -8,6 +8,10 @@ This folder contains the theoretical foundation of my styling journey. While HTM
 
 ## 📑 Table of Contents
 
+### 1. 🧠 Introduction to CSS
+
+* **[CSS-intro.md](./CSS-intro.md)** - What is CSS, Basic Anatomy, Inline, Internal, External and CSS rule set
+
 ### 1. 🏗️ CSS Fundamentals
 
 * Selectors-and-Specificity.md – Mastering IDs, Classes, and the "Cascade" (fCC: Cafe Menu).
