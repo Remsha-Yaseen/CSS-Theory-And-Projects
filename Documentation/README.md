@@ -10,7 +10,7 @@ This folder contains the theoretical foundation of my styling journey. While HTM
 
 ### 1. 🧠 Introduction to CSS
 
-* **[CSS-intro.md](./CSS-intro.md)** - What is CSS, Basic Anatomy, **Inline**  (Style attribute directly on HTML tags),   **Internal**   (Using the `<style>` tag in the `<head>`),   **External**   (The professional way using a .css file and the `<link>` tag) and CSS rule set
+* **[Intro.md](./Intro.md)** - What is CSS, Basic Anatomy, **Inline**  (Style attribute directly on HTML tags),   **Internal**   (Using the `<style>` tag in the `<head>`),   **External**   (The professional way using a .css file and the `<link>` tag) and CSS rule set
 
 ### 1. 🏗️ CSS Fundamentals
 
