@@ -61,5 +61,11 @@ Linked via a separate .css file using the <link> tag. This is how we build moder
 ## 📝 The CSS Rule Set Example
 Here is how a standard rule looks in an external stylesheet:
 
-
-
+<pre>
+/* This is a CSS Comment */
+p {
+  color: #333;            /* Property: Value */
+  font-family: Arial;     /* Property: Value */
+  text-align: center;     /* Property: Value */
+}
+</pre>
