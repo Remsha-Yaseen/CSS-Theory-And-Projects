@@ -21,6 +21,7 @@ This folder contains the theoretical foundation of my styling journey. While HTM
 * Lists-and-Links.md – Styling ordered/unordered lists and mastering interactive link states.
 * Stylized-To-Do-List/ – (Lab) Applying list styles and pseudo-classes to a functional UI project.
 * Backgrounds-and-Borders.md – Implementing colors, images, gradients, and advanced border properties.
+  
 
 
 ### 1. 🧠 Introduction to CSS
