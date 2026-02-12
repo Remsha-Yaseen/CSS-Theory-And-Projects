@@ -8,9 +8,15 @@ This folder contains the theoretical foundation of my styling journey. While HTM
 
 ## 📑 Table of Contents
 
+1. 🧱 The Foundations: 
+
+* **[Basic.md](./Basic.md)**  – Understanding how CSS transforms HTML structure into a visual experience.
+* The Basic Anatomy of a CSS Rule – Breaking down Selectors, Properties, and Values.
+
+
 ### 1. 🧠 Introduction to CSS
 
-* **[Intro.md](./Intro.md)** - What is CSS, Basic Anatomy, **Inline**  (Style attribute directly on HTML tags),   **Internal**   (Using the `<style>` tag in the `<head>`),   **External**   (The professional way using a .css file and the `<link>` tag) and CSS rule set
+* , Basic Anatomy, **Inline**  (Style attribute directly on HTML tags),   **Internal**   (Using the `<style>` tag in the `<head>`),   **External**   (The professional way using a .css file and the `<link>` tag) and CSS rule set
 
 ### 1. 🏗️ CSS Fundamentals
 
