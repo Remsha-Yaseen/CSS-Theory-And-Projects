@@ -4,6 +4,8 @@
 
 **The Transformation:** Without CSS, a browser renders HTML in a vertical, black-and-white list. CSS allows us to move elements, add depth, and create branding.
 
+------
+
 Here is the professional **boilerplate** for CSS3 that you can use in your projects:
 
 <pre>
