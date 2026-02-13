@@ -8,12 +8,12 @@ This folder contains the theoretical foundation of my styling journey. While HTM
 
 ## 📑 Table of Contents
 
-# 1. 🧱 The Foundations: 
+### 1. 🧱 The Foundations: 
 
 * **[Basic.md](./Basic.md)**  – Understanding how CSS transforms HTML structure into a visual experience.
-* Anatomy-and-Role.md – Role of CSS on the web and breaking down Selectors, Properties, and Values.
-* Implementation-Methods.md – Comparing Inline, Internal, and External CSS methods and when to use each.
-* Combinators.md – Mastering advanced selectors (Descendant, Child, and Sibling relationships).
+* **[Anatomy-and-Role.md](./Anatomy-and-Role.md)** – Role of CSS on the web and breaking down Selectors, Properties, Values and The Meta Viewport Element.
+* **[Implementation-Methods.md](./Implementation-Methods.md)** – Comparing Inline, Internal, and External CSS methods and when to use each.
+* **[Combinators.md](,/Combinators.md)** – Mastering advanced selectors (Descendant, Child, and Sibling relationships).
 * Browser-Defaults.md – Understanding User Agent Stylesheets, "Resets," and the Meta Viewport for mobile scaling.
 * Sizing-and-Spacing.md – Deep dive into Width/Height logic and the critical difference between Margins and Padding.
 * Display-Models.md – Understanding the natural flow: Inline vs. Block-Level vs. Inline-Block hybrids.
