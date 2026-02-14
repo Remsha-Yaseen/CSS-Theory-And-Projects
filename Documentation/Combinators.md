@@ -24,5 +24,40 @@ The child selector targets only elements that are immediate children of a parent
 
 * **Syntax:** A > B
 
-* **Example:** Styles <p> only if it is directly inside the <div>.
+* **Example:** Styles `<p>` only if it is directly inside the `<div>`.
+
+  <pre>
+div > p {
+  background-color: yellow;
+}
+ </pre>
+
+### 3. Adjacent Sibling Selector (+)
+This targets an element that is the very next sibling (directly follows) another element, and both must share the same parent.
+
+* **Syntax:** A + B
+
+* **Example:** If a `<p>` comes immediately after an <h1>, style that `<p>`.
+
+<pre>
+h1 + p {
+  font-weight: bold;
+}
+</pre>
+
+**Pro-Tip:** This is great for adding top margins to paragraphs that follow headings.
+
+### General Sibling Selector (~)
+This targets all siblings that follow an element, even if they aren't directly next to it, as long as they are under the same parent.
+
+* **Syntax:** A ~ B
+
+* **Example:** Styles every `<p>` that appears anywhere after an `<h1>`.
+
+<pre>
+h1 ~ p {
+  color: green;
+}
+</pre>
+
 
