@@ -8,7 +8,7 @@ The most common combinator. It targets any element that is nested inside another
 
 * **Syntax:** A B (Selector A, space, Selector B)
 
-* **Example:** Styles all <p> elements inside a <div>.
+* **Example:** Styles all `<p>` elements inside a <div>.
 
 <pre>
 div p {
@@ -16,13 +16,13 @@ div p {
 }
 </pre>
 
-**Visual Rule:** If the <p> is a child, grandchild, or great-grandchild, it will turn blue.
+**Visual Rule:** If the `<p>` is a child, grandchild, or great-grandchild, it will turn blue.
 
 
 ### 2. Child Selector (>)
 The child selector targets only elements that are immediate children of a parent. It does not go deeper into the family tree.
 
-Syntax: A > B
+* **Syntax:** A > B
 
-Example: Styles <p> only if it is directly inside the <div>.
+* **Example:** Styles <p> only if it is directly inside the <div>.
 
