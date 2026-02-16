@@ -6,7 +6,7 @@
 ### 1. The Cascade (The Tie-Breaker)
 When two or more CSS rules point to the same element, the browser looks at three factors (in this order) to determine the winner:
 
-**1- Importance:** Rules marked with !important win (use sparingly).
+**1- Importance:** Rules marked with `!important` win (use sparingly).
 
 **2- Specificity:** The more "specific" a selector is, the more weight it has.
 
@@ -30,9 +30,9 @@ Think of specificity as a score. The higher the score, the more powerful the sel
 ### 3. Inheritance
 Inheritance is the process by which certain CSS properties are passed down from a parent element to its children.
 
-* **Inherited Properties:** Mostly text-related properties like color, font-family, and line-height.
+* **Inherited Properties:** Mostly text-related properties like `color`, `font-family`, and `line-height`.
 
-* **Non-Inherited Properties:** Layout-related properties like margin, padding, border, and width.
+* **Non-Inherited Properties:** Layout-related properties like `margin`, `padding`, `border`, and `width`.
 
 <pre>
 body {
