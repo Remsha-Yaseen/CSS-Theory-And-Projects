@@ -19,7 +19,6 @@ This folder contains the theoretical foundation of my styling journey. While HTM
 * **[Display-Models.md](./Display-Models.md)** – Understanding the natural flow: Inline vs. Block-Level vs. Inline-Block hybrids.
 * **[Cascade-and-Inheritance.md](./Cascade-and-Inheritance.md)** – Deep dive into Specificity, Inheritance, and the CSS Algorithm that resolves rule conflicts.
 * **[Lists-and-Links.md](./Lists-and-Links.md)** – Styling ordered/unordered lists and mastering interactive link states.
-* **[Stylized-To-Do-List.md](./Stylized-To-Do-List,md)** – (Lab) Applying list styles and pseudo-classes to a functional UI project.
 * **[Backgrounds-and-Borders.md](./Backgrounds-and-Borders.md)** – Implementing colors, images, gradients, and advanced border properties.
   
 
