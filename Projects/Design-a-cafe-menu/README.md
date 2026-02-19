@@ -7,7 +7,9 @@ This workshop project focuses on creating a multi-section cafe menu. The goal wa
 
 ### 1. Advanced Positioning with Inline-Block
 To get the "Flavor" and "Price" on the same line, I used `display: inline-block`. By setting specific widths (75% and 25%), I created a clean, aligned list without using tables.
-```css
+
+
+<pre>
 .flavor, .dessert {
   text-align: left;
   width: 75%;
@@ -17,6 +19,7 @@ To get the "Flavor" and "Price" on the same line, I used `display: inline-block`
   text-align: right;
   width: 25%;
 }
+</pre>
 
 
 ### 2. Centering & The Box Model
