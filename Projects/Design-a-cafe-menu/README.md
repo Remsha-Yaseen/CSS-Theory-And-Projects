@@ -34,3 +34,9 @@ a:active { color: brown; }
 ### 4. Background Layering
 I practiced layering by putting a repeating coffee bean image on the body and a solid "burlywood" color on the main container to create a "paper menu" effect.
 
+### 🧠 What I Learned
+* How to use negative margins (`margin-top: -25px`) on the coffee icons to pull them closer to the headings.
+
+* The importance of `text-align:` center on a parent element to align all text children at once.
+
+* Using `hr` tags as visual separators with custom heights and colors.
