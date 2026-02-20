@@ -1,0 +1,69 @@
+
+
+
+/* User Story: Body background color (non-white) */
+body {
+    background-color: #e2e8f0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* User Story: Card styles (White bg, rounded corners, specific width) */
+.blog-post-card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    width: 350px;
+    text-align: left;
+    overflow: hidden; /* Ensures image follows card's rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* User Story: Image fills width and has a bottom border */
+.post-img {
+    width: 100%;
+    display: block;
+    border-bottom: 4px solid #6366f1; /* Indigo accent border */
+}
+
+/* User Story: Content padding */
+.post-content {
+    padding: 20px;
+}
+
+/* User Story: Title and Excerpt colors and margins */
+.post-title {
+    color: #1e293b;
+    margin: 10px 0;
+    font-size: 1.5rem;
+}
+
+.post-excerpt {
+    color: #475569;
+    margin: 15px 0;
+    line-height: 1.5;
+}
+
+/* User Story: Read More button styling */
+.read-more {
+    display: inline-block;
+    color: #ffffff;
+    background-color: #6366f1;
+    padding: 10px 20px;
+    margin: 10px 0;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+/* User Story: Hover effect */
+.read-more:hover {
+    background-color: #4f46e5;
+}
+
+
+
