@@ -24,7 +24,7 @@ This folder contains the theoretical foundation of my styling journey. While HTM
 
 ### 2. 🏗️ CSS Fundamentals
 
-* **[Design-Theory.md](./Design-Theory)** – Mastering UI/UX designs.
+* **[Design-Theory.md](./Design-Theory)** – Mastering UI/UX designs rules.
 * Colors-and-Typography.md – Using RGB, Hex, HSL, and Google Fonts (fCC: Colored Markers).
 
 * Variables.md – Managing consistent themes with :root and custom properties.
