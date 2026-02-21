@@ -24,8 +24,7 @@ This folder contains the theoretical foundation of my styling journey. While HTM
 
 ### 2. 🏗️ CSS Fundamentals
 
-* Selectors-and-Specificity.md – Mastering IDs, Classes, and the "Cascade" (fCC: Cafe Menu).
-
+* **[Design-Theory.md](./Design-Theory)** – Mastering UI/UX designs.
 * Colors-and-Typography.md – Using RGB, Hex, HSL, and Google Fonts (fCC: Colored Markers).
 
 * Variables.md – Managing consistent themes with :root and custom properties.
