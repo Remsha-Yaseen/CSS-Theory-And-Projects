@@ -25,7 +25,7 @@ This folder contains the theoretical foundation of my styling journey. While HTM
 ### 2. 🏗️ CSS Fundamentals
 
 * **[Design-Theory.md](./Design-Theory.md)** – Mastering UI/UX designs rules.
-* **[Absolute-relative-units.md](./Absolute-relative-units.md)** - 
+* **[Absolute-relative-units.md](./Absolute-relative-units.md)** - Mastering fixed, relative, and viewport units alongside the calc() function to create adaptable, responsive layouts.
 * Colors-and-Typography.md – Using RGB, Hex, HSL, and Google Fonts (fCC: Colored Markers).
 
 * Variables.md – Managing consistent themes with :root and custom properties.
