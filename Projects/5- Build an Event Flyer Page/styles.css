@@ -1,0 +1,44 @@
+/* Body Layout and Sizing */
+body {
+    /* Padding: 50px top/bottom, 0 left/right */
+    padding: 50px 0;
+    
+    /* Margin: 0 top/bottom, auto left/right to center */
+    margin: 0 auto;
+    
+    /* Width: Relative to viewport width */
+    width: 80vw;
+    
+    /* Min-height calculation: 100vh minus total vertical padding (50px + 50px) */
+    min-height: calc(100vh - 100px);
+    
+    font-family: sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Section and HR: Percent-based width relative to parent (body) */
+section, hr {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section {
+    padding: 20px 0;
+}
+
+h1, h2 {
+    color: #2c3e50;
+}
