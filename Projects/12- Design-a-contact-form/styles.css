@@ -1,0 +1,65 @@
+/* General page styling to make the form pop */
+body {
+  background: linear-gradient(135deg, #1e1e2f, #252540);
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+/* User Stories 1, 15, 16, 17, 18 */
+.form-container {
+  background-color: #2a2a40;
+  border-radius: 15px;
+  padding: 40px;
+  width: 90%;
+  max-width: 450px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* User Story 19 */
+label {
+  display: block;
+  margin: 15px 0 5px 0;
+  color: #b3b3cc;
+  font-size: 0.9rem;
+}
+
+/* User Stories 20, 21 */
+input, textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #3b3b4f;
+  border-radius: 5px;
+  background-color: #1e1e2f;
+  color: white;
+  box-sizing: border-box; /* Ensures padding doesn't affect width */
+}
+
+/* User Stories 22, 23 */
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #4ecca3;
+  color: #1e1e2f;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* User Story 24: Hover effect */
+button:hover {
+  background-color: #45b28e;
+}
