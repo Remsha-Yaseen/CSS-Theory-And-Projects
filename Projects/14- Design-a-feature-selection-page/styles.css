@@ -1,0 +1,77 @@
+/* General Layout Styles */
+body {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  background-color: #f4f7f6;
+}
+
+h1 {
+  color: #333;
+}
+
+.feature-card-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.feature-card {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.feature-card:hover {
+  background-color: #f0f0f0;
+}
+
+/* CORE REQUIREMENTS FOR THE LAB 
+   Targets User Stories 8-15
+*/
+
+input[type="checkbox"] {
+  /* 9. Remove default browser style */
+  appearance: none; 
+  
+  /* 10, 11, 12. Set border width, color, and style */
+  border: 2px solid #5d5dff; 
+  
+  /* Sizing for the custom box */
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+  margin-right: 12px;
+  cursor: pointer;
+  position: relative; /* Necessary for centering the checkmark */
+  background-color: white;
+}
+
+/* 14 & 15. Styles for when the checkbox is checked */
+input[type="checkbox"]:checked {
+  background-color: #5d5dff; /* Chosen background color */
+  border-color: #3b3bff;     /* Chosen border color */
+}
+
+/* 13. Centered checkmark ✓ using ::after */
+input[type="checkbox"]:checked::after {
+  content: "✓";
+  position: absolute;
+  color: white;
+  font-weight: bold;
+  
+  /* Centering logic */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 14px;
+}
