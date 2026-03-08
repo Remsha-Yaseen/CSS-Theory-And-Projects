@@ -29,10 +29,9 @@ This folder contains the theoretical foundation of my styling journey. While HTM
 * **[CSS-Pseudo-Classes-&-Elements.md](./CSS-Pseudo-Classes-&-Elements.md)**- A deep dive into managing element states, document structure, and user interactions through modern CSS selectors.
 * **[Colors-and-Design.md](Colors-and-Design.md)** – Using RGB, Hex, HSL, and Google Fonts (fCC: Colored Markers).
 * **[Form-styling.md](Form-styling.md)** –A set of standards for maintaining accessibility and cross-browser consistency when using custom CSS.
-  
-* Variables.md – Managing consistent themes with :root and custom properties.
 
-### 2. 📦 The Box Model (The Core of CSS)
+
+### 3. 📦 The Box Model (The Core of CSS)
 Box-Model-Theory.md – Understanding Content, Padding, Border, and Margin (fCC: Rothko Painting).
 
 Box-Sizing.md – Why border-box is essential for predictable layouts.
