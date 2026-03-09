@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Classified Memo</title>
+</head>
+<body>
+    <main id="email">
+        <div id="confidential">CONFIDENTIAL</div>
+        <div id="top-secret">TOP SECRET</div>
+        
+        <p>This memo confirms the discovery of the <span class="blurred">unidentified craft</span> located in Sector 7.</p>
+        
+        <p>The primary witness, <span class="blurred">Agent Harrison</span>, has been debriefed and relocated to a safe house.</p>
+        
+        <p>Please ensure that all <span class="blurred">encrypted files</span> are destroyed immediately after reading this communication.</p>
+    </main>
+</body>
+</html>
