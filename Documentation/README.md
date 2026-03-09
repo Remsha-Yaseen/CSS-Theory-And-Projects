@@ -32,7 +32,7 @@ This folder contains the theoretical foundation of my styling journey. While HTM
 
 
 ### 3. 📦 The Box Model (The Core of CSS)
-* **[Layouts-Effect.md](./Layouts-Effect.md)** – Understanding Box model, positioning, and visual enhancement. (fCC: Rothko Painting, confidential Email Page).
+* **[Layouts-Effect.md](Layouts-Effect.md)** – Understanding Box model, positioning, and visual enhancement. (fCC: Rothko Painting, confidential Email Page).
 
 
 Box-Sizing.md – Why border-box is essential for predictable layouts.
