@@ -1,0 +1,52 @@
+/* Core requirement: Box-sizing ensures total width is exactly 500px */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e0e0e0;
+  font-family: "Courier New", Courier, monospace;
+}
+
+#email {
+  id: email; /* Ensuring ID matches user story */
+  width: 500px;
+  padding: 50px;
+  margin: 50px auto 0 auto; /* top margin 50px */
+  border: 2px solid #333;
+  background-color: #fff;
+}
+
+#confidential, #top-secret {
+  display: inline-block;
+  padding: 10px;
+  margin-left: 15px;
+  border: 3px double;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* Specific styling and rotation for stamps */
+#confidential {
+  color: #8b0000;
+  border-color: #8b0000;
+  transform: rotate(-5deg);
+}
+
+#top-secret {
+  color: #000;
+  border-color: #000;
+  transform: rotate(3deg);
+}
+
+p {
+  line-height: 1.6;
+  margin-top: 25px;
+}
+
+/* The Redaction Filter */
+.blurred {
+  filter: blur(3px);
+  background-color: #333; /* Visual style: looks like a black marker stroke */
+  color: transparent;     /* Hides the text for extra 'classified' effect */
+}
