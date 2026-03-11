@@ -34,13 +34,8 @@ This folder contains the theoretical foundation of my styling journey. While HTM
 ### 3. 📦 The Box Model (The Core of CSS)
 * **[Layouts-Effects.md](./Layouts-Effects.md)** – Understanding Box model, positioning, and visual enhancement. (fCC: Rothko Painting, confidential Email Page).
 
-
-Box-Sizing.md – Why border-box is essential for predictable layouts.
-
-Shapes-and-Effects.md – Border-radius, shadows, and opacity.
-
-### 3. 📐 Layout & Positioning
-Flexbox.md – Modern 1D alignment (fCC: Photo Gallery).
+### 4. 📐 Layout & Positioning
+* **[Flexbox.md](./Flexbox.md)** – Modern 1D alignment (fCC: Photo Gallery, colorful box, ).
 
 CSS-Grid.md – Mastering 2D layouts and grid-areas (fCC: Magazine Layout).
 
