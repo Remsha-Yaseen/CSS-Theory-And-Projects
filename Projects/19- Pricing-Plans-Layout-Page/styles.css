@@ -1,0 +1,43 @@
+/* General Page Styling */
+body {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Container Logic */
+.pricing-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Added for personal style spacing */
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Card Blueprint */
+.pricing-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 0 0 200px;
+  border: 2px solid black;
+  padding: 20px;
+  min-height: 150px;
+}
+
+/* Individual Plan Logic */
+.basic-plan {
+  order: 0;
+  background-color: #f8f9fa; /* Personal style touch */
+}
+
+.pro-plan {
+  order: 1;
+  flex-grow: 2;
+  background-color: #e3f2fd; /* Personal style touch */
+}
+
+.premium-plan {
+  order: 2;
+  background-color: #fff3e0; /* Personal style touch */
+}
