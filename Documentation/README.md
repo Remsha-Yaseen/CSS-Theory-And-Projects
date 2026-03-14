@@ -37,12 +37,12 @@ This folder contains the theoretical foundation of my styling journey. While HTM
 ### 4. 📐 Layout & Positioning
 * **[Flexbox.md](./Flexbox.md)** – Modern 1D alignment (fCC: Photo Gallery, colorful box, ).
 
-CSS-Grid.md – Mastering 2D layouts and grid-areas (fCC: Magazine Layout).
 
-Position-Property.md – Deep dive into Relative, Absolute, Fixed, and Sticky.
 
-### 4. 📱 Responsive Design & UI
-Media-Queries.md – Making projects mobile-first and adaptive.
+### 5. 📱 Responsive Design & UI
+
+
+* **[Typography.md](./Typography.md)** –the core differences between font categories, CSS properties used to implement fonts on the web.
 
 Relative-Units.md – Moving beyond pixels: em, rem, vh, and vw.
 
