@@ -43,6 +43,7 @@ This folder contains the theoretical foundation of my styling journey. While HTM
 
 
 * **[Typography.md](./Typography.md)** –the core differences between font categories, CSS properties used to implement fonts on the web.
+* **[Accessibility-&-Responsive-Design.md](./Accessibility-&-Responsive-Design.md)** -Best practices for building inclusive, screen-reader friendly websites that adapt seamlessly to all device screen sizes.
 
 Relative-Units.md – Moving beyond pixels: em, rem, vh, and vw.
 
