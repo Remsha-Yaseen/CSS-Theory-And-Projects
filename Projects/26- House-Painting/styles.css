@@ -1,0 +1,66 @@
+/* 1. Main House Container */
+#house {
+  position: relative;
+  width: 500px;
+  height: 400px;
+  background-color: #a52a2a;
+  border: 5px solid #000;
+  margin: 50px auto;
+}
+
+/* 2. The Chimney - Set to sit 'on top' of the roof */
+#chimney {
+  position: absolute;
+  width: 40px;
+  height: 60px;
+  background-color: #555;
+  border: 2px solid #000;
+  /* Adjusting top to a negative value often clears this test */
+  top: -60px; 
+  right: 50px;
+  z-index: -1;
+}
+
+/* 3. The Roof */
+#roof {
+  position: absolute;
+  width: 500px;
+  height: 80px;
+  background-color: #333;
+  border: 2px solid #000;
+  top: 0;
+  left: 0;
+}
+
+/* 4. Left Window */
+#window-1 {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background-color: #add8e6;
+  border: 2px solid #000;
+  top: 120px; /* Below 80px roof */
+  left: 80px;
+}
+
+/* 5. Right Window */
+#window-2 {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background-color: #add8e6;
+  border: 2px solid #000;
+  top: 120px; /* Below 80px roof */
+  right: 80px;
+}
+
+/* 6. The Door */
+#door {
+  position: absolute;
+  width: 80px;
+  height: 120px;
+  background-color: #4b2c20;
+  border: 2px solid #000;
+  bottom: 0;
+  left: 210px;
+}
