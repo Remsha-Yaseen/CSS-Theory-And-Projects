@@ -36,6 +36,9 @@ This folder contains the theoretical foundation of my styling journey. While HTM
 
 ### 4. 📐 Layout & Positioning
 * **[Flexbox.md](./Flexbox.md)** – Modern 1D alignment (fCC: Photo Gallery, colorful box, ).
+* **[Layout.md](./Layout.md)** -A comprehensive guide to understanding document flow, floats, and the various positioning states in CSS.
+
+Relative-Units.md – Moving beyond pixels: em, rem, vh, and vw.
 
 
 
@@ -44,9 +47,7 @@ This folder contains the theoretical foundation of my styling journey. While HTM
 
 * **[Typography.md](./Typography.md)** –the core differences between font categories, CSS properties used to implement fonts on the web.
 * **[Accessibility-&-Responsive-Design.md](./Accessibility-&-Responsive-Design.md)** -Best practices for building inclusive, screen-reader friendly websites that adapt seamlessly to all device screen sizes.
-* **[Layout.md](./Layout.md)** -A comprehensive guide to understanding document flow, floats, and the various positioning states in CSS.
 
-Relative-Units.md – Moving beyond pixels: em, rem, vh, and vw.
 
 Transitions-and-Animations.md – Adding life to the UI with hover states and @keyframes.
 
