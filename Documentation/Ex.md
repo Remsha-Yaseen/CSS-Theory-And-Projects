@@ -1,4 +1,4 @@
 n
 m
 mmm
-mn
+mnm
