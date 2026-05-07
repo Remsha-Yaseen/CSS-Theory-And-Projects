@@ -1,4 +1,2 @@
 nnnnn
-nmnnn
-mn
-mn
+n
