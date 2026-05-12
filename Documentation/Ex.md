@@ -1,4 +1,2 @@
 nnnnn
-bb
-nn
 nm
