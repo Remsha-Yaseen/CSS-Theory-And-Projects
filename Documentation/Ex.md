@@ -1,5 +1,0 @@
-nnnnn
-nm
-mndb
-
-mm
