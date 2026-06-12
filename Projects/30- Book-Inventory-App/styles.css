@@ -1,0 +1,66 @@
+span {
+  display: inline-block;
+}
+
+/* 21-26: Row background-images */
+tr[class="read"] {
+  background-image: linear-gradient(#e8f5e9, #c8e6c9);
+}
+tr[class="to-read"] {
+  background-image: linear-gradient(#fff3e0, #ffe0b2);
+}
+tr[class="in-progress"] {
+  background-image: linear-gradient(#e3f2fd, #bbdefb);
+}
+
+/* 28-36: Status attribute selectors */
+tr[class="to-read"] span[class="status"] {
+  border: 1px solid #e65100;
+  background-image: linear-gradient(#ffb74d, #fb8c00);
+}
+tr[class="read"] span[class="status"] {
+  border: 1px solid #1b5e20;
+  background-image: linear-gradient(#81c784, #4caf50);
+}
+tr[class="in-progress"] span[class="status"] {
+  border: 1px solid #0d47a1;
+  background-image: linear-gradient(#64b5f6, #2196f3);
+}
+
+/* 37-40: Dimensions */
+span[class="status"], 
+span[class^="rate"] {
+  height: 25px;
+  width: 90px;
+  padding: 5px;
+}
+
+/* 41-47: Circle styles */
+span[class^="rate"] > span {
+  border: 1px solid #333;
+  border-radius: 50%;
+  margin: 2px;
+  height: 15px;
+  width: 15px;
+  background-color: #fff;
+}
+
+/* 48-49: Rate One - Exact Word Match */
+span[class~="one"] span:first-of-type {
+  background-image: linear-gradient(#fdd835, #fbc02d);
+}
+
+/* 50-51: Rate Two - Target first two descendants */
+/* Using -n+2 targets index 1 and 2 specifically */
+span[class~="two"] span:nth-of-type(-n+2) {
+  background-image: linear-gradient(#fdd835, #fbc02d);
+}
+
+/* 52-53: Rate Three - Target all descendants */
+span[class~="three"] span {
+  background-image: linear-gradient(#fdd835, #fbc02d);
+}
+
+/* Basic table layout */
+table { width: 100%; border-collapse: collapse; }
+th, td { padding: 10px; border-bottom: 1px solid #ccc; }
