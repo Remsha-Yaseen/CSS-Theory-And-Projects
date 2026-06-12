@@ -37,6 +37,8 @@ This folder contains the theoretical foundation of my styling journey. While HTM
 ### 4. 📐 Layout & Positioning
 * **[Flexbox.md](./Flexbox.md)** – Modern 1D alignment (fCC: Photo Gallery, colorful box, ).
 * **[Layout.md](./Layout.md)** -A comprehensive guide to understanding document flow, floats, and the various positioning states in CSS.
+* **[Attribute-Selectors.md](./Attribute-Selectors.md)** -covering pattern matching ($^=$, $\$=$, $*=$, $\sim=$), language, and list styles with code examples. (fcc: Balance-sheet, Book Inventor)
+* 
 
 Relative-Units.md – Moving beyond pixels: em, rem, vh, and vw.
 
