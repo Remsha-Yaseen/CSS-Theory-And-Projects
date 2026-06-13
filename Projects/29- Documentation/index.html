@@ -1,1 +1,71 @@
-i
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Documentation - CSS Grid</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav id="navbar">
+        <header>CSS Grid Docs</header>
+        <ul>
+            <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+            <li><a class="nav-link" href="#Grid_Container">Grid Container</a></li>
+            <li><a class="nav-link" href="#Grid_Tracks">Grid Tracks</a></li>
+            <li><a class="nav-link" href="#Fractional_Units">Fractional Units</a></li>
+            <li><a class="nav-link" href="#Grid_Gap">Grid Gap</a></li>
+        </ul>
+    </nav>
+
+    <main id="main-doc">
+        <section class="main-section" id="Introduction">
+            <header>Introduction</header>
+            <p>CSS Grid Layout is a two-dimensional layout system for the web. It lets you content in rows and columns, and has many features that make building complex layouts easy.</p>
+            <p>Unlike Flexbox, which is largely one-dimensional, Grid is designed to handle both columns and rows simultaneously.</p>
+            <code>display: grid;</code>
+        </section>
+
+        <section class="main-section" id="Grid_Container">
+            <header>Grid Container</header>
+            <p>To get started you have to define a container element as a grid by setting its display property.</p>
+            <p>This enables a grid context for all its direct children. Use the following syntax:</p>
+            <code>.container { display: grid; }</code>
+            <ul>
+                <li>Defines a grid context</li>
+                <li>Affects direct children only</li>
+            </ul>
+        </section>
+
+        <section class="main-section" id="Grid_Tracks">
+            <header>Grid Tracks</header>
+            <p>You define the columns and rows of your grid with the grid-template-columns and grid-template-rows properties.</p>
+            <p>Tracks are the space between any two lines on the grid.</p>
+            <code>grid-template-columns: 200px 200px;</code>
+            <ul>
+                <li>Columns are vertical tracks</li>
+                <li>Rows are horizontal tracks</li>
+            </ul>
+        </section>
+
+        <section class="main-section" id="Fractional_Units">
+            <header>Fractional Units</header>
+            <p>The <code>fr</code> unit allows you to set the size of a track as a fraction of the free space of the grid container.</p>
+            <p>This is much more flexible than using percentages for fluid layouts.</p>
+            <code>grid-template-columns: 1fr 2fr;</code>
+        </section>
+
+        <section class="main-section" id="Grid_Gap">
+            <header>Grid Gap</header>
+            <p>The gap property (formerly grid-gap) is a shorthand for row-gap and column-gap.</p>
+            <p>It allows you to create gutters between your grid items without using margins.</p>
+            <code>gap: 20px;</code>
+            <ul>
+                <li>Standardizes spacing</li>
+            <li>Does not add space to outer edges</li>
+            <li>Supported in most modern browsers</li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
