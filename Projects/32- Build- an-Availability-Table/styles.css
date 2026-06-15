@@ -1,0 +1,121 @@
+/* Define required root variables */
+:root {
+    /* Required availability colors (0 = None, 5 = Max) */
+    --color0: #2a2a35; /* Empty/Unavailable */
+    --color1: #3b3052;
+    --color2: #4c3670;
+    --color3: #5d3b8e;
+    --color4: #703fac;
+    --color5: #8241cb; /* Fully Available */
+
+    /* Required border variables */
+    --solid-border: 2px solid #444454;
+    --dashed-border: 2px dashed #666677;
+    
+    /* Layout styling colors */
+    --bg-main: #121216;
+    --text-main: #f1f1f4;
+}
+
+/* Global Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--bg-main);
+    color: var(--text-main);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: #1a1a24;
+    padding: 2.5rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    max-width: 500px;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+
+/* Table Architecture */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+}
+
+th, td {
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Row Headers styling */
+th {
+    background-color: #22222e;
+    font-weight: 600;
+}
+
+/* First Column time headers requirement */
+th.time {
+    font-size: 0.85rem;
+    color: #a0a0b0;
+    text-align: left;
+}
+
+/* Required .sharp row rules using --solid-border */
+.sharp td {
+    border-bottom: var(--solid-border);
+}
+
+/* Required .half row rules using --dashed-border */
+.half td {
+    border-bottom: var(--dashed-border);
+}
+
+/* Map background colors using your CSS variables */
+.available-0 { background-color: var(--color0); }
+.available-1 { background-color: var(--color1); }
+.available-2 { background-color: var(--color2); }
+.available-3 { background-color: var(--color3); }
+.available-4 { background-color: var(--color4); }
+.available-5 { background-color: var(--color5); }
+
+/* Legend Block styling */
+#legend {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+#legend span {
+    font-size: 0.9rem;
+    color: #a0a0b0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Hard-lined linear-gradient transitioning between color0 and color5 */
+#legend-gradient {
+    width: 100%;
+    height: 15px;
+    border-radius: 4px;
+    background-image: linear-gradient(
+        to right,
+        var(--color0) 0%,   var(--color0) 17%,
+        var(--color1) 17%,  var(--color1) 34%,
+        var(--color2) 34%,  var(--color2) 50%,
+        var(--color3) 50%,  var(--color3) 67%,
+        var(--color4) 67%,  var(--color4) 84%,
+        var(--color5) 84%,  var(--color5) 100%
+    );
+}
