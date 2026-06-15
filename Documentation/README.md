@@ -20,6 +20,7 @@ This folder contains the theoretical foundation of my styling journey. While HTM
 * **[Cascade-and-Inheritance.md](./Cascade-and-Inheritance.md)** – Deep dive into Specificity, Inheritance, and the CSS Algorithm that resolves rule conflicts.
 * **[Lists-and-Links.md](./Lists-and-Links.md)** – Styling ordered/unordered lists and mastering interactive link states.
 * **[Backgrounds-and-Borders.md](./Backgrounds-and-Borders.md)** – Implementing colors, images, gradients, and advanced border properties.
+* **[CSS-Variables-&-@property.md](./CSS-Variables-&-@property.md)** - Learning reusable values, implementing Light/Dark themes, and advanced control with the @property rule.
   
 
 ### 2. 🏗️ CSS Fundamentals
