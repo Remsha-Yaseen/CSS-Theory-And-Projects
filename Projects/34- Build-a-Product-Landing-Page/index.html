@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Click & Clack | Premium Mechanical Keyboards</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header id="header">
+    <div class="header-container">
+      <div class="logo-area">
+        <img id="header-img" src="https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?w=100&auto=format&fit=crop&q=60" alt="Click & Clack Logo">
+        <span class="brand-name">Click & Clack</span>
+      </div>
+      
+      <nav id="nav-bar">
+        <ul>
+          <li><a class="nav-link" href="#features">Features</a></li>
+          <li><a class="nav-link" href="#showcase">Showcase</a></li>
+          <li><a class="nav-link" href="#newsletter">Join Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero">
+      <div class="hero-content">
+        <h2>Elevate Your Typing Experience</h2>
+        <p>Premium hot-swappable mechanical keyboards engineered for creators, coders, and gamers.</p>
+        
+        <div id="newsletter" class="form-container">
+          <h3>Get Early Access & Exclusive Discounts</h3>
+          <form id="form" action="https://www.freecodecamp.org/email-submit" method="POST">
+            <input 
+              type="email" 
+              id="email" 
+              name="email" 
+              placeholder="Enter your email address" 
+              required
+            >
+            <input type="submit" id="submit" value="Notify Me">
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="container">
+      <h2 class="section-title">Why Choose Us?</h2>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="icon">🎹</div>
+          <h3>Hot-Swappable Sockets</h3>
+          <p>Change your switches in seconds without soldering. Compatible with 3-pin and 5-pin switches.</p>
+        </div>
+        <div class="feature-card">
+          <div class="icon">✨</div>
+          <h3>Per-Key RGB Lighting</h3>
+          <p>Millions of custom lighting configurations managed via an intuitive open-source desktop software app.</p>
+        </div>
+        <div class="feature-card">
+          <div class="icon">🛡️</div>
+          <h3>Aluminum Construction</h3>
+          <p>CNC-milled solid aluminum casing that provides weighted desk stability and acoustic premium acoustic feedback.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="showcase" class="container dark-bg">
+      <h2 class="section-title">See It In Action</h2>
+      <p class="section-subtitle">Listen to the signature acoustic profile of our gasket-mounted builds.</p>
+      <div class="video-wrapper">
+        <iframe 
+          id="video" 
+          src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+          title="Product Video Showcase" 
+          allowfullscreen
+        ></iframe>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Click & Clack Keyboards. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
