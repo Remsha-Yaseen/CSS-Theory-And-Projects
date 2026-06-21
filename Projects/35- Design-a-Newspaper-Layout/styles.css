@@ -1,0 +1,122 @@
+
+
+
+
+
+
+/* --- Base Styles & Typography --- */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Georgia', serif;
+  background-color: #fcfbf7;
+  color: #1a1a1a;
+  padding: 2rem;
+  line-height: 1.5;
+}
+
+/* --- Newspaper Layout Grid --- */
+.newspaper-layout {
+  display: grid;
+  max-width: 1200px;
+  margin: 0 auto;
+  column-gap: 2rem;
+  row-gap: 1.5rem;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto 1fr 1fr 1fr;
+  grid-template-areas: 
+    "title title title"
+    "feature-article feature-article cover-image"
+    "secondary-article secondary-article cover-image"
+    "small-article1 small-article2 small-article3";
+}
+
+/* --- Grid Area Assignments --- */
+.title {
+  grid-area: title;
+}
+
+.feature-article {
+  grid-area: feature-article;
+}
+
+.secondary-article {
+  grid-area: secondary-article;
+}
+
+.cover-image {
+  grid-area: cover-image;
+}
+
+.small-article1 {
+  grid-area: small-article1;
+}
+
+.small-article2 {
+  grid-area: small-article2;
+}
+
+.small-article3 {
+  grid-area: small-article3;
+}
+
+/* --- Personal Aesthetic Styling --- */
+.title {
+  text-align: center;
+  border-bottom: 4px double #1a1a1a;
+  padding: 1.5rem 0;
+  margin-bottom: 1rem;
+}
+
+.title h1 {
+  font-size: 3.5rem;
+  letter-spacing: 2px;
+  font-family: 'Times New Roman', serif;
+  font-weight: 900;
+}
+
+/* Article Typography Definitions */
+h2 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 0.75rem;
+  text-transform: capitalize;
+}
+
+h3 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  border-top: 1px solid #1a1a1a;
+  padding-top: 0.5rem;
+}
+
+p {
+  font-size: 0.95rem;
+  text-align: justify;
+}
+
+/* Image Configuration */
+.cover-image {
+  width: 100%;
+  height: 100%;
+}
+
+.cover-image img {
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: grayscale(40%);
+  border: 1px solid #1a1a1a;
+}
+
+/* Decorative Left Borders for Visual Contrast */
+.feature-article, .secondary-article {
+  border-left: 1px solid #ccc;
+  padding-left: 1rem;
+}
