@@ -1,0 +1,254 @@
+
+
+/* ==========================================================================
+   1. Root Variables & Global Configuration
+   ========================================================================== */
+:root {
+  --penguin-picorna: orange;
+  --penguin-skin: gray;
+}
+
+.penguin {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  transition: transform 1s ease-in-out 0ms;
+}
+
+/* Interaction: Scale up 50% and show 'not-allowed' cursor on click/tap */
+.penguin:active {
+  transform: scale(1.5);
+  cursor: not-allowed;
+}
+
+/* ==========================================================================
+   2. Penguin Head Structure & Features
+   ========================================================================== */
+.penguin-head {
+  width: 40%;
+  height: 35%;
+  background: linear-gradient(45deg, var(--penguin-skin), rgb(239, 240, 228));
+  border-radius: 70% 70% 65% 65%;
+  position: absolute;
+  top: 10%;
+  left: 30%;
+  z-index: 1;
+}
+
+.face {
+  width: 60%;
+  height: 70%;
+  background-color: #fff;
+  border-radius: 70% 70% 60% 60%;
+  position: absolute;
+  top: 15%;
+}
+
+.face.left {
+  left: 5%;
+}
+
+.face.right {
+  right: 5%;
+}
+
+.chin {
+  width: 90%;
+  height: 70%;
+  background-color: #fff;
+  border-radius: 70% 70% 100% 100%;
+  position: absolute;
+  top: 25%;
+  left: 5%;
+}
+
+/* Eyes & Eyelids */
+.eye {
+  width: 15%;
+  height: 17%;
+  background-color: #000;
+  border-radius: 50%;
+  position: absolute;
+  top: 45%;
+}
+
+.eye.left {
+  left: 25%;
+}
+
+.eye.right {
+  right: 25%;
+}
+
+.eye-lid {
+  width: 150%;
+  height: 100%;
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: -20%;
+  left: -25%;
+}
+
+/* Blush & Beak Features */
+.blush {
+  width: 15%;
+  height: 10%;
+  background-color: pink;
+  border-radius: 50%;
+  position: absolute;
+  top: 65%;
+}
+
+.blush.left {
+  left: 15%;
+}
+
+.blush.right {
+  right: 15%;
+}
+
+.beak {
+  position: absolute;
+  background-color: var(--penguin-picorna);
+  border-radius: 50%;
+}
+
+.beak.top {
+  width: 20%;
+  height: 10%;
+  top: 60%;
+  left: 40%;
+}
+
+.beak.bottom {
+  width: 16%;
+  height: 8%;
+  top: 65%;
+  left: 42%;
+}
+
+/* ==========================================================================
+   3. Custom Shirt Configuration
+   ========================================================================== */
+.shirt {
+  font-size: 25px;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  color: #6a6969;
+  position: absolute;
+  top: 165px;
+  left: 127.5px;
+  z-index: 1;
+}
+
+/* Heart Emoji Wrapper Override */
+.shirt div {
+  font-weight: normal;
+  position: absolute;
+  top: 22.5px;
+  left: 12px;
+}
+
+/* ==========================================================================
+   4. Penguin Body, Arms & Feet
+   ========================================================================== */
+.penguin-body {
+  width: 53%;
+  height: 45%;
+  background-color: #333;
+  border-radius: 80% 80% 100% 100%;
+  position: absolute;
+  top: 40%;
+  left: 23.5%;
+}
+
+/* Dynamic Chest Crest */
+.penguin-body::before {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 45%;
+  background-color: var(--penguin-skin);
+  top: 10%;
+  left: 25%;
+  border-radius: 0% 0% 100% 100%;
+}
+
+/* Shared Arm Configuration */
+.arm {
+  position: absolute;
+  width: 30%;
+  height: 60%;
+  background: linear-gradient(90deg, var(--penguin-skin), rgb(209, 210, 199));
+  border-radius: 30% 30% 30% 120%;
+  z-index: -1;
+}
+
+/* Modifier Arm Positioning & Transforms */
+.arm.left {
+  top: 35%;
+  left: 5%;
+  transform-origin: top left;
+  transform: rotate(130deg) scaleX(-1);
+  animation: wave 3s linear infinite;
+}
+
+.arm.right {
+  top: 0%;
+  right: -5%;
+  transform: rotate(-45deg);
+}
+
+/* Shared Foot Configuration */
+.foot {
+  width: 15%;
+  height: 30%;
+  background-color: var(--penguin-picorna);
+  position: absolute;
+  top: 85%;
+  border-radius: 50%;
+  z-index: -1;
+}
+
+/* Modifier Foot Positioning & Rotations */
+.foot.left {
+  left: 25%;
+  transform: rotate(80deg);
+}
+
+.foot.right {
+  right: 25%;
+  transform: rotate(-80deg);
+}
+
+/* ==========================================================================
+   5. Environment Elements
+   ========================================================================== */
+.ground {
+  height: calc(100vh - 300px);
+  background-color: #bdd6df;
+  position: absolute;
+  width: 100%;
+  z-index: 3;
+}
+
+/* ==========================================================================
+   6. Animations
+   ========================================================================== */
+@keyframes wave {
+  10% {
+    transform: rotate(110deg) scaleX(-1);
+  }
+  20% {
+    transform: rotate(130deg) scaleX(-1);
+  }
+  30% {
+    transform: rotate(110deg) scaleX(-1);
+  }
+  40% {
+    transform: rotate(130deg) scaleX(-1);
+  }
+}
+
