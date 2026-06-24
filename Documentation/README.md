@@ -51,5 +51,5 @@ Relative-Units.md – Moving beyond pixels: em, rem, vh, and vw.
 * **[Typography.md](./Typography.md)** –the core differences between font categories, CSS properties used to implement fonts on the web.
 * **[Accessibility-&-Responsive-Design.md](./Accessibility-&-Responsive-Design.md)** -Best practices for building inclusive, screen-reader friendly websites that adapt seamlessly to all device screen sizes.
 * **[Grids.md](./Grids.md)** - A comprehensive reference guide reviewing CSS Grid fundamentals, layout configurations, and essential browser debugging techniques.
-* **[Transitions-and-Animations.md] (./Transitions-and-Animations.md)** – Adding life to the UI with hover states and @keyframes.
+* **[Transitions-and-Animations.md](./Transitions-and-Animations.md)** – Adding life to the UI with hover states and @keyframes.
 
